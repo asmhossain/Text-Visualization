@@ -1,0 +1,1 @@
+Research procedures and technical methods should be presented in sufficient detail to ensure scrutiny and reproducibility. We recognize that user data may be proprietary or confidential, but we encourage the sharing of (anonymized, cleaned) data sets, data collection procedures, and code. 

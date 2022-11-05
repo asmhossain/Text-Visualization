@@ -1,0 +1,240 @@
+SC Reproducibility Initiative
+Background
+ 
+
+The SC Conference Series introduced the reproducibility initiative in the 2016 Technical Papers program, with a strategy of Result and Artifact Review and Badging. Authors were asked to voluntarily submit an artifact description (AD) appendix along with their paper, describing the details of their software environments and computational experiments to the extent that an independent person could replicate their results.
+
+About 30 authors volunteered for this effort. Nine submitted AD appendices, three among them were chosen as finalists, and one was used in the SC17 Student Cluster Competition. All papers that included an AD appendix were given an ACM Artifacts Available badge, and the papers with their appendices are archived in the ACM Digital Library.
+
+The reproducibility initiative was continued at SC17, with the added requirement that an AD appendix be included in order for a paper to be considered for Best Paper or Best Student Paper. SC17 also introduced the computational results analysis (CRA) appendix, which enables authors to describe approaches used to better ensure the trustworthiness of their computational results. 40% of submitted papers and more than 50% of accepted papers included an AD appendix. Nine submitted papers included a CRA appendix, six of which were accepted.
+
+SC18 will continue these efforts, extending the option of submitting an AD appendix to the Workshops and Posters programs. Inclusion of an AD appendix will remain optional for Papers, and will remain a requirement for Best Paper and Best Student Paper selections. The CRA appendix has been renamed the artifact evaluation (AE) appendix and will continue to be optional.
+
+ 
+
+Why Focus on Reproducibility at SC?
+ 
+
+Reproducibility is at the heart of the scientific method. The SC Conference Series is committed to introducing elements that highlight, enhance, and reward participant efforts to improve reproducibility. Since we started the SC reproducibility initiative, we have observed the following:
+
+Producing an AD appendix improves both effectiveness and efficiency:
+
+The AD appendix provides information (details of the computing platform, software environment, etc.) that should be in any paper with computational results.
+If a paper has no computational results, the appendix only needs to mention that computational results are not part of the paper.
+The AD appendix provides uniform and thorough descriptions of this basic information, making it easier for authors to provide the content, and reviewers and readers to understand it.
+The SC review process for appendices can support double-blind requirements that are similar to handling self citations.
+Provision of an artifact evaluation (AE) appendix is an important approach especially suited to SC authors:
+
+A significant number of SC contributions are executed in “boutique” environments where reviewers, readers, and even the authors themselves may have difficulty re-running the computational experiments.
+The AE appendix enables authors to describe how they verify and validate their computational results, providing increased evidence that their results are trustworthy, and providing best practices descriptions to the community that can be adopted by others who want to improve their own efforts.
+ 
+
+Reproducibility at SC18
+ 
+
+The reproducibility initiative will be active in three programs at SC18:
+
+Papers: The SC18 process will be identical to SC17, except that the artifact evaluation appendices will be limited to four pages. An artifact description appendix (up to two pages) will be required for consideration for Best Paper and Best Student Paper.
+Workshops: Workshop organizers will have the option to request artifact description appendices from their authors.
+Posters: Poster submissions will have the option to include an artifact description appendix. An AD appendix will be required for consideration for Best Poster or Best Student Poster.
+ 
+
+Artifact Description Appendix
+ 
+
+A submission cannot be disqualified based on information provided or not provided in this appendix, nor if no appendix is provided.
+The inclusion and quality of an appendix may be considered in evaluating a submission, particularly in ranking two submissions of similar quality.
+ 
+
+Artifact Evaluation Appendix
+ 
+
+Each year, SC receives a significant number of submissions reporting results from boutique environments such as leadership computing platforms, prototype hardware for next generation systems, or other environments where reviewers would be unable to replicate the results – and even the authors themselves may be challenged to do so. The AE appendix gives authors the opportunity to discuss how the trustworthiness of their results can be increased even when the computational experiments cannot be rerun. Approaches include verification and validation efforts prior to, during, and after execution of computational experiments such that metadata about code and results can be used in post-execution analysis to confirm that the experiment executed as expected, with some extra assurance that the results are correct.
+
+ 
+
+Artifact Evaluation Appendix Details
+ 
+
+The AE appendix initiative is intended to spur community exploration of upstream diagnostics and peri-execution time verification and validation that will give the authors, reviewers, and the community at large greater confidence that published non-replicable results are correct.
+
+Authors can volunteer to produce an appendix describing their approach and results.
+We hope to use a selection of these submissions in the Student Cluster Competition for students to study and exercise as a part of the competition.
+Some types of additional diagnostics could be:
+
+Validation of the timers (time something with a known execution time, determine the precision and statistical variability of the timer).
+Confirmation of results for a manufactured solution.
+Testing the analytics of the problem (e.g., generate a problem with known spectral properties and test its behavior).
+ 
+
+Engaging the Student Cluster Competition
+ 
+
+We will engage students in the SC reproducibility initiative again this year by continuing to use these appendices in the Student Cluster Competition.
+
+Q. Does the artifact description appendix really impact scientific reproducibility?
+A. The AD appendix is simply a description of the computing environment used to produce the results presented. By itself, this appendix does not directly improve scientific reproducibility. However, if this artifact is done well, it can be used by scientists (including the authors at a later date) to more easily replicate and build upon these results. Therefore, the AD appendix can reduce barriers and costs of replicating published results. It is an important first step toward full scientific reproducibility.
+
+ 
+
+Q. Does the artifact evaluation appendix really impact scientific reproducibility?
+A. A thorough artifact evaluation effort is an effective way to increase the trustworthiness of computational results from “boutique” platforms. Leadership computing platforms, novel testbeds, and experimental computing environments are of keen interest to the supercomputing community. At the same time, these platforms are often volatile and possess a higher risk of unanticipated behavior.
+
+Furthermore, access to these systems is typically limited, making it nearly impossible for most reviewers to independently compute author results. Finally, the volatility of these platforms often makes it hard for the authors themselves to recompute their own results in the future, since changes in the environment (compilers, libraries, components, etc.) impact computational results, and there is no way to revert to previous system states.
+
+For all of these reasons, the introduction of upstream setup testing, peri-execution time testing and post-execution analysis can improve confidence that computational results from these special platforms are correct.
+
+ 
+
+ACM Artifacts Available and Artifacts Evaluated Badges
+ 
+
+Q. The Artifacts Available badge description on the ACM website states: “Personal web pages are not acceptable for this purpose.” I do not have free access to any repositories aside from my personal website. Does SC provide a permanent repository?
+A. No. There are numerous source hosting platforms that provide free or inexpensive hosting. You should use one of these.
+
+ 
+
+Q. Do I get any recognition for submitting an AD and/or AE appendix?
+A. ACM Artifacts Available badge: An accepted paper with a fully completed artifact description appendix is eligible for the ACM Artifacts Available badge if the artifacts listed in the appendix are downloadable by anyone without restriction.
+
+ACM Artifacts Evaluated badge: An accepted paper with fully completed artifact description and artifact evaluation appendices is further eligible for the ACM Artifacts Evaluated badge if its artifacts are downloadable and positively evaluated by reviewers.
+
+ACM Replicated Computational Results badge: An accepted paper that contains an AD appendix will be considered for inclusion in the SC Student Cluster Competition (SCC), where student teams will attempt to replicate the results presented in the paper. Papers will be selected based on their suitability for use in the SCC. Papers selected for the SCC will receive the ACM Replicated Computational Results badge.
+
+Reproducibility Initiative
+ 
+
+We believe that reproducible science is essential, and that SC should be a leader in this effort. Reproducibility has already been well adopted within the SC Papers program, with about 40% of submissions and 50% of accepted papers containing a reproducibility appendix.
+
+Moving in this direction, reproducibility will be considered during the evaluation of workshop submissions. Each workshop organizer should encourage submitters to include reproducibility information, using SC17 Technical Papers as a guide.
+
+ 
+
+Encouraging Reproducibility
+The Workshops submission form includes the following questions:
+
+How do you plan on including reproducibility (e.g., “in the same way as SC17 Technical Papers”)?
+If you are not including reproducibility in your workshop, why not?
+If a workshop organizer believes they cannot partake in this initiative, they should explain why in their submission to the Workshops Committee.
+
+ 
+
+Types of Workshops
+There are generally three types of workshops at SC:
+
+Workshops centered around published technical papers
+Workshops centered around panelists and discussion (“mini-symposia”)
+Invited workshops for working groups, centered around already-published work
+At SC17, more than 90% of the workshops were of the first type. The reproducibility initiative targets these workshops in particular; however, the Workshops Committee welcomes any movement toward reproducibility in submissions from the other two workshop types as well.
+
+ 
+
+For Authors
+Workshop organizers who intend to participate in the reproducibility initiative should provide for their authors:
+
+Information about this initiative on the workshop’s website, explaining how authors can present their reproducibility documentation;
+An evaluation of each author’s reproducibility documentation, as part of the review process;
+And confirmation from their proceedings editors that the reproducibility information can be included in the proceedings.
+
+Reproducibility Initiatives for [Name of workshop]
+====
+
+Background
+--
+
+SC’16 introduced the first reproducibility efforts for the SC conference series technical papers program. 
+This initial effort followed the strategy of [Result and Artifact Review and Badging](http://www.acm.org/publications/policies/artifact-review-badging), and asked for volunteers to complete an appendix to their paper that described the details of their software environment and computational experiments to the extent that an independent person could replicate their results. In SC’16, 9 authors submitted appendices. 
+
+The format changed slightly with SC’17, with the introduction of [a second appendix](http://sc17.supercomputing.org/program/technical-papers/reproducibility-initiatives-for-technical-papers/) describing how computational results were obtained. In SC’17, more than half of the accepted papers had submitted a reproducibility appendix.
+
+Reproducibility at [name of workshop]
+--
+
+For [name of workshop], we adopt the following approach following the model of SC17:
+
+*Artifact Description Appendix:* We will use the format of one of the SC18 appendix (with minor revisions) for [name of workshop] submissions.  Authors will provide the completed appendix (at most 2 pages), along with their submission.
+
+Notes:
+  - A paper cannot be disqualified based on information provided or not provided in this appendix, nor if the appendix is not available.
+The availability and quality of an appendix can be used in ranking a paper. In particular, if two papers are of similar quality, the existence and quality of the appendices can be part of the evaluation process.
+  - In order to be considered for Best Paper or Best Student Paper, the authors must submit an Artifact Description appendix.
+
+The format is available [see attached .tex template]
+
+FAQ for authors
+--
+
+Q. Is the Artifact Description appendix required in order to submit a paper to [name of workshop]?
+
+A. No. These appendices are not required. If you do not submit any appendix, it will not disqualify your submission. At the same time, if two papers are otherwise comparable in quality, the existence and quality of appendices can be a factor in ranking one paper over another.
+
+Q. Do I need to make my software open source in order to complete the Artifacts Description appendix?
+
+A. No. It is not required that you make any changes to your computing environment in order to complete the appendix. The Artifacts Description appendix is meant to provide information about the computing environment you used to produce your results, reducing barriers for future replication of your results. However, in order to be eligible for the ACM Artifacts Available badge (see below), your software must be downloadable by anyone without restriction.
+
+Q. Who will review my appendices?
+
+A. The Artifact Description and Computational Results Analysis appendices will be submitted at the same time as your paper and will be reviewed as part of the standard review process by the same reviewers who handle the rest of your paper.
+
+Q. Does the Artifacts Description appendix really impact scientific reproducibility?
+
+A. The Artifacts Description appendix is simply a description of the computing environment used to produce the results in a paper. By itself, this appendix does not directly improve scientific reproducibility. However, if this artifact is done well, it can be used by scientists x(including the authors at a later date) to more easily replicate and build upon the results in the paper. Therefore, the Artifacts Description appendix can reduce barriers and costs of replicating published results. It is an important first step toward full scientific reproducibility.
+
+FAQ for reviewers
+--
+
+Q. What are my responsibilities when reviewing a paper that has an Artifacts Description appendix?
+
+A. Reviewers are expected to read any appendix that is submitted with a paper. The information in these appendices is often included in any well-written paper. By collecting this information in a uniform way, we hope that the review process will be more effective without requiring a significant new burden on reviewers.
+
+Q. Must I confirm that links in an appendix work?
+
+A. Confirming links in an appendix are not required of every reviewer. We are asking for volunteers from the review committee who would be willing to validate links provided in appendices.
+
+Q. Must I evaluate the code and results associated with a Computational Results Analysis appendix?
+
+A. Code and results evaluations associated with a Computational Results Analysis appendix are not required of every reviewer. We are asking for volunteers from the review committee who would be willing to evaluate code and results associated with these appendices.
+
+Q. How may I use appendices as part of the review process?
+
+A. The absence or poor quality of an appendix cannot be used to categorically disqualify a paper. Furthermore, inaccessibility of artifacts such as source code cannot be used to categorically disqualify a paper. However, the presence and quality of an appendix can be used as part of the review process. In particular, if two papers have similar ranking based on the manuscripts, the availability and quality of appendices can provide additional evaluation criteria.
+
+
+Submission and reviewing guidelines, and methodology:
+http://submissions.supercomputing.org/reproducibility
+A. Abstract
+If a paper has no computational results and submits this
+appendix, the authors only need to complete this abstract
+subsection and mention that the paper has no computational
+results. Other subsections can be removed.
+B. Description
+1) Check-list (artifact meta information): Fill in whatever
+is applicable with some informal keywords and remove the rest
+Algorithm:
+Program:
+Compilation:
+Transformations:
+Binary:
+Data set:
+Run-time environment:
+Hardware:
+Run-time state:
+Execution:
+Output:
+Experiment workflow:
+Experiment customization:
+Publicly available?:
+2) How software can be obtained (if available): Obligatory
+if the paper contains computational results.
+3) Hardware dependencies:
+4) Software dependencies:
+5) Datasets:
+C. Installation
+Obligatory if the paper contains computational results.
+D. Experiment workflow
+Obligatory if the paper contains computational results.
+E. Evaluation and expected result
+Obligatory if the paper contains computational results.
+F. Experiment customization
+G. Notes
+

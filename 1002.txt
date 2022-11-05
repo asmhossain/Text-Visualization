@@ -1,0 +1,1 @@
+Research procedures and technical methods should be presented in sufficient detail to ensure scrutiny and reproducibility. Results should be clearly communicated and implications of the contributions/findings should be explicitly discussed.

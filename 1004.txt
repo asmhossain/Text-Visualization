@@ -1,0 +1,282 @@
+New for SC21
+The SC Best Reproducibility Advancement Award aims to recognize outstanding efforts in improving transparency and reproducibility of methods for high performance computing, storage, networking and analysis. This award will recognize the paper or a research object of a paper that most significantly advances the state of art in transparency and reproducibility. 
+
+In this context, a research object refers to a collection of computational artifacts that extend beyond the submitted paper, such as software, datasets, environment configuration, mechanized proofs, benchmarks, or test suites with scripts.
+
+Goals
+This award aims to encourage transparency and reproducibility and to reward outstanding efforts that broadly fall under the following scope:
+
+Improvements in transparency and reproducibility of research in HPC, e.g., via tools or methods
+Efforts to build transparent and reproducible research objects
+Experimental design methodologies for verifying and future-proofing scientific claims and conclusions
+Generation and publication of open datasets/software of relevance to the SC community
+General advancements in transparency and reproducibility
+Criteria
+The award will be given based on the advancements in transparency and reproducibility and/or extraordinary exemplars of reproducible research in a paper or research object. Typical examples include:
+
+Paper 
+Developing novel tools and methodologies to assist transparency and reproducibility
+Demonstrating and studying transparency and reproducibility at SC
+Enabling transparency and reproducibility in a subfield at SC with barriers for transparency and reproducibility
+Research Objects of a Paper
+Showcasing best practices
+Open sourcing research objects
+Packaging research objects in a novel/particularly helpful way
+Building research objects tailored to education 
+Automating reproduction 
+Adapting research objects for alternative experiment environments
+Including original measurements and information about the experiments
+Nomination Process
+All SC papers and research objects are eligible for this award and can be nominated by the SC Technical Paper Committee or SC Artifact Description/Evaluation Committee as part of the usual review process. Each submission will be given the opportunity to highlight their advancement in transparency and reproducibility as part of their submission form. This information would then be considered during the selection process.
+
+Selection Process
+The Award Selection Committee includes representatives from both the SC Reproducibility Initiative and the SC Technical Paper Committee. The selection committee only considers accepted papers and research objects that have been nominated for the award (see Nomination Process above) and bases its evaluations on the award criteria stated above. In principle, nominations can include papers that did not apply for badges but that nevertheless represent an important resource enabling reproducibility.
+
+
+We are excited to announce that the SC21 Reproducibility Challenge Committee has selected the SC20 paper “A parallel framework for constraint-based Bayesian network learning via Markov blanket discovery” by Ankit Srivastava, Sriram P Chockalingam, and Srinivas Aluru to serve as the Student Cluster Competition (SCC) benchmark for this year’s Reproducibility Challenge. A team of reviewers selected the paper from 96 accepted SC20 papers, based on the paper’s Artifact Descriptor (AD) and its suitability to the SCC. The authors and the Reproducibility Committee have been working to create a reproducible benchmark that builds on the paper’s results. At SC21, the SCC teams will be asked to run the benchmark, replicating the findings from the original paper under different settings and with different datasets.
+
+What makes the work of the student teams particularly relevant is the replication of the paper’s work across the different clusters that will be fielded by the teams. In the era of heterogeneous computing, porting applications from one platform to another is not a simple task. The work of the student teams at SC21 is a fantastic way to dive into reproducibility challenges across various platforms and emerge with shareable, robust insights. It is the ensemble of each team’s implementation and execution of the challenge on sixteen different platforms that will earn this paper ACM’s “Results Replicated” badge in the ACM Digital Library. Sharing is at the core of the Reproducibility Challenge – so, the work of the SCC teams will be collected and published. We have already published three special issues in Parallel Computing from previous years.
+
+Behind the Scenes: Putting Together the SC21 SCC Benchmark
+Many volunteers participate in the selection of the paper, the creation of the benchmark for the SCC teams, the assessment of the students’ work, and the publication of the special journal issue.
+
+During the first round of reviews to determine feasibility for the competition, the reviewers looked at whether the finalist papers had an application that could be run by the student teams on the broad range of hardware types and cluster configurations that are typically fielded by SCC teams. This initial review eliminated nearly 80% of the potential papers because, for example, they used proprietary compilers, ran only on specific hardware, or reproducing the results required a larger scale than the SCC clusters could provide.
+
+A second round of reviews, including at least two for each paper, looked for which application would be best suited for the SCC teams. The committee then ranked the submissions based on criteria such as the application’s real-world impact as understood by undergraduates, and the anticipated student experience while working with the benchmark. Discussions with the authors of the finalist papers focused on the feasibility of adapting their applications to the Student Cluster Competition and the availability for the authors to devote time to the success of the challenge. Following these interviews, the committee met to determine which application to invite.
+
+The selection of the paper is only one step in a long process that ends with the preparation of the Reproducibility Challenge benchmark – one of many benchmarks that the students must meet during the competition. The reproducibility benchmark will be revealed at SC21. Following the conference, we will publish the students’ reports from the SC21 SCC Reproducibility Challenge, to demonstrate the effectiveness of the SCC teams and their success in replicating the code on their platforms.
+
+Mark Your Calendar
+The Student Cluster Competition will be held November 15–17 during SC21 at the America’s Center in St. Louis, Missouri. Visit the SCC booth on the exhibit floor at SC21 and chat with students about the Reproducibility Challenge. We invite you to celebrate the student participants and the authors of the selected paper at the Awards Ceremony on Thursday of the conference. And don’t miss next year’s SCC reports! Join us in St. Louis to meet these amazing students and watch them race to reproduce this benchmark and other HPC applications.
+
+SC has been a leader in tangible progress towards scientific rigor, through its pioneering practice of enhanced reproducibility of accepted papers. The SC21 initiative builds on this success by continuing the practice of using appendices to enhance scientific rigor and transparency.
+
+The Reproducibility Initiative impacts technical papers and their submission and peer review in the following ways:
+
+The Artifact Description (AD) Appendix will be auto-generated from author responses to a standard form embedded in the online submission system. It will have greater emphasis on linking to the broader products resulting from research. The AD is required but an indication that no artifacts were created or used is acceptable. Accepted papers with available artifacts will be honored with the appropriate ACM badges.
+SC21 encourages, and for accepted papers, will evaluate and reward the availability and functionality of automated AE so that reviewers can easily reproduce a paper’s key results and claims with provided artifacts. While authors are strongly encouraged to make all artifacts publicly available, AE is open to artifacts that are not. Accepted papers with available artifacts will be honored with the appropriate ACM badges.
+The Reproducibility Initiative accomplishes its work through the following four committees:
+
+Artifact Description/Artifact Evaluation Appendices Committee
+Reproducibility Challenge Committee
+Journal Special Issue Committee
+Best Reproducibility Advancement Award Committee
+SC Reproducibility Subcommittees
+AD/AE Appendices Track
+This subcommittee has the following tasks within its charge:
+
+Manage and/or develop reproducibility FAQ and other resources as aid to authors during submission. Could include one-on-one assistance with prospective authors.
+Develop and publicly release a rubric for reviewing appendices. This release will occur prior to the paper submission deadline.
+Review the appendices of submitted papers according to the rubric. Provide a justified assessment to the PC who will incorporate this recommendation into their final determination.
+Reproducibility Challenge
+This subcommittee has the following tasks within its charge:
+
+Select a paper accepted to the previous conference to be used as source of the Reproducibility Challenge in the Student Cluster Competition (SCC) of the next conference;
+Work with the authors of the selected paper to build the challenge benchmark for the SCC teams;
+Continue working until the time of the conference in crafting the rules and requirements for the challenge, and ensure compatibility with the various hardware used by the SCC teams;
+Convene a subgroup to collect publish-quality reports from each student team who participated in the reproducibility challenge of SCC. The reports in this collection will have a citable DOI and be made available through an archive venue.
+Best Reproducibility Advancement Award
+This subcommittee has the following tasks within its charge:
+
+Collect self-nominations from authors and nominations from the Papers program committees and the AD/AE subcommittee;
+Create a shortlist of four nominations;
+Select the winner.
+See the Best Reproducibility Advancement Award page for details.
+
+AD/AE Appendix Form: Its Role in a Paper and Its Review
+All manuscripts submitted to the SC Technical Papers program must contain an AD Appendix. The AD Appendix describes the significant research products and other evidence needed for greater scientific rigor and transparency of the scientific conclusions of the manuscript. If a manuscript’s scientific findings have no significant supporting research products or require no additional evidence in support of its scientific conclusions, the AD appendix can easily be generated to reflect this fact. That is, the AD form is mandatory but the author makes the determination whether additional evidence is needed for their particular scientific contribution..
+
+The AE Appendix is optional but authors are strongly encouraged to provide AE resources and workflows that reviewers can easily evaluate for availability, functionality, and their support for claimed key results. Even though the AD/AE review process strongly encourages publicly available artifacts, it is open to artifacts that are not.
+
+Role of AD/AE Appendix during review: Submissions to SC are double-blind reviewed. SC Papers Committee (PC) reviewers will have only the information in the AD/AE form available to them that does not compromise the double-blind protection.
+
+The AD/AE review criteria are posted as part of AD/AE Appendix Process & Badges. The AE badges are the rubric as to how far an artifact has gone along in the reproducibility spectrum (see description of the badges).
+
+Additional notes to authors:
+
+The on-line submission form accommodates both Artifact Description (required) and Artifact Evaluation (optional).
+The appendices are intended for supplemental material only. Specifically, the research or experimental methodology is critical to understanding the scientific contribution so must be included in the body of the paper.
+Please contact us with your questions.
+AD/AE Appendix Process & Badges
+The goal of the SC Reproducibility Committee is to encourage and promote reproducible research within the SC community. To that end, we aim to assist SC authors in providing us with the necessary documentation that describes your artifact and help us evaluate it so we can assign a badge to the artifact.
+
+For full details on the AD/AE process including AD/AE criteria, submission timeline, a description of artifact badges, and tips on organizing your research object:
+
+AD/AE Appendix Process & Badges
+
+Infrastructure for Artifact Evaluation
+Authors of accepted papers who applied for artifact badges require infrastructure to share their artifacts with the AD/AE Committee for review. To facilitate artifact sharing, the SC21 Reproducibility Initiative is collaborating with Chameleon Cloud, CloudLab, Jetstream via XSEDE, SDSC, and TACC to provide such an infrastructure. Authors of submitted papers will be able to prepare their artifacts so that if their submissions get accepted, the AD/AE Committee can perform single-blind reviews of their artifact badge applications.
+
+The SC21 Reproducibility Initiative and the infrastructure collaborators are organizing a webinar for authors who are interested in using this infrastructure. The webinar will be recorded so authors in less convenient timezones can view it and will be posted here. Full details will be announced shortly.
+
+SC21 Reproducibility Infrastructure Webinar
+Friday, June 11, 2021
+7–9 am PT / 8–10 am MT / 9–11 am CT / 10 am–noon ET
+Webinar access: To be announced
+Chameleon
+SDSC
+CloudLab
+Xsede
+Jetstream
+
+History of the SC Reproducibility Initiative
+2020
+SC expanded the Initiative to transparency and reproducibility to reflect scientific rigor through disclosure particularly in research involving AI. The AD Appendix was streamlined for reduced researcher burden and to align with open science principles. An additional track undertook a formal survey of community sentiment about SC reproducibility with the objective of publishable results. The majority of survey participants who went through the AD/AE Appendices process expressed that they now think differently about theirs and others’ research after having gone through the process.
+
+2019
+AD Appendices were mandatory for all submissions. AE Appendices were still optional, and both were submitted via a standard form in the conference submission system. Three new subcommittees, with their respective chairs, were introduced in support of the SC Reproducibility Initiative.
+
+2018
+SC extended the option of submitting AD Appendices to Workshops and Posters. The CRA Appendix was renamed Artifact Evaluation (AE) Appendix, and limited to four pages. AD Appendices were limited to 2 pages and remained optional (but required for consideration as Best Paper/Best Student Paper, and also Best Poster/Best Student Poster).
+
+2017
+SC made the AD Appendix a requirement to be considered for the Best Paper or Best Student Paper awards. SC17 also introduced the Computational Results Analysis (CRA) Appendix. 40% of submitted and 50% of accepted papers included an AD appendix; nine submitted papers (six accepted) included a CRA Appendix.
+
+2016
+Authors submitting to the SC16 conference could optionally submit an AD Appendix: nine authors submitted one, three were finalists, and one was selected to become the source for the SC17 Student Cluster Competition Reproducibility Challenge.
+
+2015
+The SC steering committee approved the reproducibility initiative. Authors of SC15 papers were invited to submit an AD Appendix after the conference: one paper did so, became the source for the SC16 Student Cluster Competition Reproducibility Challenge and the first SC paper to display an ACM badge.
+
+Goals
+Overview
+The goal of this committee is to encourage and promote reproducible research within the SC community. To that end, we aim to assist SC authors in providing us with the necessary documentation that describes your artifact and help us evaluate it so we can assign a badge to the artifact.
+
+Why Should You Participate?
+You will be making it easy for other researchers to compare with your work, to adopt and extend your research. This instantly means more recognition directly visible through badges for your work and higher impact. As described in this SC20 survey, thirty-five percent (35%) of the respondents have used the appendices information from papers in the SC conference proceedings in their research. There will be a general announcement for all accepted papers reproduced and badged.
+
+What Is An Artifact/Research Object?
+We use the terms artifact and research object as synonyms. A paper consists of several computational artifacts that extend beyond the submitted article itself: software, datasets, environment configuration, mechanized proofs, benchmarks, test suites with scripts, etc. A complete artifact package must contain (1) the computational artifacts, and (2) instructions/documentation describing the contents and how to use it. Further details and guidance about artifacts and research objects are provided all through this page.
+
+AD/AE Process
+Overview
+The Artifact Description/Artifact Evaluation (AD/AE) process is single-blind, unlike paper submissions which are double-blind reviewed. Author’s need not remove identifying information from artifacts or papers. The Committee may provide feedback to authors in a single-blind arrangement. The AD/AE Committee will not share any information with the Program Committee other than to confirm whether artifacts meet the criteria.
+
+Evaluation Timeline
+The review process will take place in two stages: In Phase 1, Artifact Descriptions will be checked for completion and accessibility, and in Phase 2, Artifact Evaluation will happen for accepted papers that applied for badges.
+
+In conjunction with the paper submission, artifact descriptions are mandatory. The artifact description provides information about a paper’s artifacts. All SC papers must provide (1) an artifact description, or (2) provide a reason why an artifact description can not be provided (see below for the Artifact Description criteria).
+
+Based on the author’s application for badges during the AD submission, the AD/AE committee starts to evaluate the artifact. This step relies on cooperation between paper authors and the committee. We will use Linklings, the SC conference submission system, for single-blind messaging between the two parties. Via this communication, the committee may ask for access to special hardware, ask for missing components, provide failure/error messages, and generally keep the author’s posted on their evaluation status.
+
+
+Important Dates
+April 9 – Artifact description & badge application submission (along with paper submission)
+June 4 – Artifact description decision
+June 21 – Artifact badge evaluation starts
+August 6 – Artifact freeze
+August 20 – Artifact badge decision
+
+How to Submit
+Artifacts are submitted via the Artifact Description submission form. Submission includes application for badging in the second stage. Artifact freeze means the artifact must not be changed after this time, or a tagged version be provided.
+
+View a sample form
+
+Criteria for Artifact Description (AD)
+Overview
+The Artifact Description is a mandatory step for all submitted papers. All authors must provide descriptions of their artifacts. If you are unable to provide an artifact description (due to proprietary reasons), please provide detailed reasons why you are not able to do so. Failure to provide detailed description, will lead to further questions from the AD/AE Committee. Please provide convincing explanations. The AD/AE Committee will provide their feedback to the SC Technical Program Committee, and inadequate explanations will be taken against the overall paper review.
+
+The criteria for the Artifact Description process is a filled AD/AE Appendix Form reflecting the current state of your artifact. The AD/AE Committee will evaluate completion of the form and artifact accessibility from any links included as part of the form. Applying for badges happens at this stage. If you wish to acquire a badge for your artifact, you must choose appropriate badges in AD/AE form.
+
+Please submit the AD form
+
+Criteria for Artifact Evaluation (AE)
+Overview
+The goal of Artifact Evaluation is to award badges to artifacts of accepted papers. We base all badges on the NISO Reproducibility Badging and Definitions Standard and apply publisher-specific badges from ACM and IEEE on SC’s publisher alternating each year. In 2021 the assigned badges will be per ACM Reproducibility Standard.
+
+Authors of papers must choose to apply for a badge a priori during the AD phase. We offer three kinds of badges for which authors can apply for. A paper may apply for one or more of these badges. The type of badge and the criteria for each badge is explained next.
+
+Open Research Objects (ORO)
+An author-created artifact of the paper is accessible via a persistent, shareable URI. The committee will take the AD/AE Appendices form as a guide to check for the accessibility criteria. A crucial element of this form is the metadata describing your research object.
+
+The following are necessary to receive this badge:
+
+Assigned DOI to your research object by the Article Freeze deadline (08/06/2021). DOIs can be acquired via Zenodo, FigShare, Dryad, Software Heritage. Zenodo provides an integration with Github to automatically generate DOIs from Git tags.
+Links to code and data repositories on a hosting platform that supports versioning: GitHub, or GitLab. In other words, please do NOT provide DropBox links or gzipped files hosted through personal webpages.
+Note, for physical objects relevant to the research, the metadata about the object should be made available. For further guidance, please further review artifact availability criteria here.
+
+What do we mean by accessible? Artifacts used in the research (including data and code) are permanently archived in a public repository that assigns a global identifier and guarantees persistence, and are made available via standard open licenses that maximize artifact availability.
+
+What is a DOI? Check this out.
+
+Research Objects Reviewed (ROR)
+The criteria for ROR badge requires an AD/AE committee member to agree if the artifact provides enough details to exercise the artifact of components in the paper. For example, is it possible to compile the artifact, use a Makefile, or perform a small run. If the artifact runs on a large cluster—can it be compiled on a single machine? Can analysis be run on a small scale? Does the artifact describe the components to nurture future use of this artifact?
+
+The reviewer will assess the details of the research artifact based on the following criteria:
+
+Documentation: Are the artifacts sufficiently documented to enable them to be exercised by readers of the paper?
+Completeness: Do the submitted artifacts include all of the key components described in the paper?
+Exercisability: Do the submitted artifacts include the scripts and data needed to run the experiments described in the paper, and can the software be successfully executed.
+We encourage authors to describe their (i) workflow underlying the paper, (ii) describing some of the black boxes, or a white box (source, configuration files, build environment), (iii) input data: either the process to generate the input data should be made available, or when the data is not generated, the actual data itself or a link to the data should be provided, (iv) environment (system configuration and initialization, scripts, workload, measurement protocol) used to produce the raw experimental data, and (v) the scripts needed to transform the raw data into the graphs included in the paper.
+
+Results Reproduced (ROR-R)
+The evaluators successfully reproduced the key computational results using the author‐created research objects, methods, code, and conditions of analysis. Note we do not aim to recreate the exact or identical results, especially hardware-based results. However, we do aim to:
+
+Reproduce Behavior: This is of specific importance where results are hardware-dependent. Bit-wise reproducibility is not our goal. If we get access to the same hardware as used by experiments, we will aim to reproduce the results on that hardware. If not, we aim to work with authors to determine the equivalent or approximate behavior on available hardware. For example, if results are about response time, our objective will be to check if a given algorithm is significantly faster than another one, or that a given parameter affects negatively or positively the behavior of a system.
+Reproduce the Central Results and Claims of the Paper: We do not aim to reproduce all the results and claims of the paper. The AD/AE committee will determine the central results of the accepted paper, and will work with authors to confirm it. Once confirmed, the badge will be assigned based on the committee being able to reproduce behavior of these central results
+Publisher Equivalent Badges
+The previous section defines 3 badges based on the NISO Reproducibility Badging and Definitions Standard. In this section we map these badges to ACM- and IEEE-specific badges.
+
+
+Organizing Your Research Object
+Overview
+A paper consists of several computational artifacts that extend beyond the submitted article itself: software, datasets, environment configuration, mechanized proofs, benchmarks, test suites with scripts, etc. A complete artifact package must contain (1) the artifact itself, and (2) instructions/documentation describing the contents and how to use it.
+
+Choose a repository such as a version-controlled code and data repositories: Zenodo, FigShare, Dryad, Software Heritage, GitHub or GitLab.
+
+Your artifact package must include an obvious “README” that describes your artifact and provides a road map for evaluation. The README should contain or point to suitable instructions and documentation, to save committee members the burden of reverse-engineering the authors’ intentions. (A tool without a quick tutorial is generally very difficult to use. Similarly, a dataset is useless without some explanation on how to browse the data.) For software artifacts, the README should—at a minimum—provide instructions for installing and running the software on relevant inputs. For other types of artifacts, describe your artifact and detail how to “use” it in a meaningful way.
+
+Importantly, make your claims about your artifacts concrete. This is especially important if you think that these claims differ from the expectations set up by your paper. The AEC is still going to evaluate your artifacts relative to your paper, but your explanation can help to set expectations up front, especially in cases that might frustrate the evaluators without prior notice. For example, tell the AEC about difficulties they might encounter in using the artifact, or its maturity relative to the content of the paper.
+
+Packaging Methods
+Authors should consider one of the following methods to package the software components of their artifacts (although the AEC is open to other reasonable formats as well):
+
+Source Code: If your artifact has few dependencies and can be installed easily on several operating systems, you may submit source code and build scripts. However, if your artifact has a long list of dependencies, please use one of the other formats below.
+Virtual Machine/Container: A virtual machine or Docker image containing the software application already set up with the right toolchain and intended runtime environment. For example:
+For raw data, the VM would contain the data and the scripts used to analyze it.
+For a mobile phone application, the VM would have a phone emulator installed.
+For mechanized proofs, the VM would contain the right version of the relevant theorem prover. We recommend using a format that is easy for AEC members to work with, such as OVF or Docker images. An AWS EC2 instance is also possible.
+Binary Installer: Indicate exactly which platform and other run-time dependencies your artifact requires.
+Live Instance on the Web: Ensure that it is available for the duration of the artifact evaluation process.
+Internet-accessible Hardware: If your artifact requires special hardware (e.g., GPUs or clusters), or if your artifact is actually a piece of hardware, please make sure that AEC members can somehow access the device. VPN-based access to the device might be an option.
+Preparation Sources
+There are several sources of good advice about preparing artifacts for evaluation. The first two are particularly noteworthy:
+
+HOWTO for AEC Submitters, by Dan Borowy, Charlie Cursinger, Emma Tosch, John Vilk, and Emery Berger
+Artifact Evaluation: Tips for Authors, by Rohan Padhye
+SIGOPS articles on award winning artifacts [1] and [2]
+Github CSArtifacts Resources
+Badging Process FAQ
+Is participation in the badging process mandatory?
+No. Participation in the badging process is voluntary. Please choose which badges you wish to apply for in the AD/AE Appendices Form.
+
+Artifact Evaluation will only occur for accepted papers who have applied for an appropriate badge. The badge will be assigned after the artifact evaluation process is over.
+
+What is the set of badge labels that a paper can apply for?
+Open Research Object (ORO)
+Research Objects Reviewed (ROR)
+Open Research Object and Research Objects Reviewed (ORO+ROR)
+Research Objects Reviewed and Results Reproduced (ROR+ROR-R)
+Open Research Object and Research Objects Reviewed and Results Reproduced (ORO+ROR+ROR-R)
+No badge
+Any ROR-R badge assumes ROR. In the rare circumstance where results are reproduced (ROR-R) but artifact does not meet the criteria for Research Objects Reviewed (ROR), we aim to work with the authors to provide the necessary and sufficient artifacts to attain the ROR badge.
+
+Who will conduct badging?
+Active researchers, postdocs, graduate students, along with chairs of the committee.
+
+AE Committee self-nomination form
+
+Will SC host the artifacts of reproduced papers?
+Authors are responsible to host their artifacts, whether reproduced or not. We suggest using one of the following platforms: Zenodo, FigShare, Dryad, Software Heritage for sharing their artifacts with AD/AE Committee. The SC Reproducibility Initiative does not have any place to permanently host what we reproduce and/or review. So any work done to badge artifacts will not be hosted on a longer term.
+
+Come and join a Reproducibility BoF with the leadership of the SC21 Reproducibility Initiative! Hear about their experience, the experiences of authors and reviewers, and share what worked for you, what didn’t, and ways to improve the reproducibility initiatives of future SCs. This interactive session will include short presentations about outcomes, challenges and innovations of this year’s Initiative and will provide ample opportunity for you to chime in with questions and comments.
+
+The ability to reproduce results is a cornerstone of science. Hardly anyone would dispute that, and yet this cornerstone is still quite shaky. There is a lot of talk about Open Science, transparency, repeatability, reproducibility and replicability, but not many people care about those concepts in their daily software development practices. What is SC doing about it? And what can you do about it?
+
+This session will describe what the SC Reproducibility Initiative is about and explain the idea of digital artifacts and appendices providing artifact description (AD appendix) and artifact evaluation (AE appendix). Then we will discuss how good Software Engineering practices combined with open data repositories make the results obtained from scientific software easier to repeat, replicate and reproduce while making the software itself more sustainable. Everyone is welcome to participate and contribute to this conversation.
+
+
+The National Science Foundation defines reproducibility as "the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator''. Reproducibility in machine learning refers to the ability to regenerate a model precisely guaranteeing identical accuracy and transparency. While a model may offer reproducible inference, reproducing the model itself is frequently problematic at best due to the presence of pseudo-random numbers as part of the model generation. Managing the random numbers generated in the production of a machine learning model is a necessary step to ensuring that the model is reproducible.
+
+This project establishes examples of the impact of randomness on model accuracy and offers a preliminary investigation into the ways in which random number generation can be controlled to make ML models more reproducible.
+

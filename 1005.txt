@@ -1,0 +1,141 @@
+SC20 Transparency and Reproducibility Initiative Discusses Early Findings of Community Survey.
+
+The SC20 Transparency and Reproducibility Initiative undertook a survey in August of this year to study perceptions within the community of the measures implemented by SC to make results from the Technical Program and Workshops more transparent and reproducible. SC’s measures for increased reproducibility take the form of additional information collected at the time of submission of papers to the Technical Program about the experimental activity that supports the results in the manuscript. This information is submitted as an appendix to the manuscript and published as an appendix to the final published version in the SC Conference Proceedings.
+
+The study is timely, as the reproducibility initiative has been in effect since SC15, when authors of SC15 papers were invited to submit an Artifacts Description (AD) Appendix after the conference.
+
+While analysis of the data is ongoing, early findings speak to the strength and value of the sustained effort towards transparency and reproducibility at SC.
+
+After six years of the initiative, a reassuring result of the survey is that a full 90% of the community respondents are aware of the issues around reproducibility. Only 15% think the concerns about reproducibility in science are exaggerated, and only 7% think that the concerns about reproducibility in science do not apply to computer and computational science.
+
+An important impact of the SC reproducibility initiative is whether the reproducibility measures result in published papers having greater impact. The results suggest this to be true. Thirty five percent (35%) of the respondents have used the appendices information from papers in the SC Conference Proceedings in their research.
+
+Food for thought for the future of the SC reproducibility effort: 75% of respondents strongly agreed or somewhat agreed with the statement that transparency (and not reproducibility) is the goal of the SC AD/AE appendices. This result is somewhat surprising and suggests that the visibility that has come through the additional appendix information is overwhelmingly seen as a benefit of the SC reproducibility measures.
+
+The survey was open August 17–31, 2020 and had 204 survey respondents. A manuscript is in preparation that discusses the study, analysis, and detailed conclusions. The study was conducted under Indiana University protocol #2005780098, “Assessing Reproducibility Initiative of IEEE/ACM SC Conference,” led by Beth Plale and Line Pouchard.
+
+SC20 Student Cluster Reproducibility Committee Chooses Benchmark Wisely.
+
+We are excited to announce that the SC20 Reproducibility Committee has selected the SC19 paper “MemXCT: Memory-Centric X-ray CT Reconstruction with Massive Parallelization”, by Mert Hidayetoğlu, Tekin Biçer, Simon Garcia de Gonzalo, Bin Ren, Doğa Gürsoy, Rajkumar Kettimuthu, Ian T. Foster, and Wen-mei W. Hwu, to serve as the Student Cluster Competition (SCC) benchmark for the Reproducibility Challenge this year. A team of reviewers selected the paper from 45 finalists, based on the paper’s Artifact Descriptor (AD) and its suitability to the SCC. The authors and the Reproducibility Committee have been working to create a reproducible benchmark that builds on the paper’s results. At SC20, the sixteen SCC teams will be asked to run the benchmark, replicating the findings from the original paper under different settings and with different datasets.
+
+What makes the work of the student teams particularly relevant is the replication of the paper’s work across the sixteen different clusters that will be fielded by the teams. In the era of heterogeneous computing, porting applications from one platform to another is not a simple task. The work of the student teams at SC20 is a fantastic way to dive into reproducibility challenges across heterogeneous platforms and emerge with shareable, robust insights. It is the ensemble of each team’s implementation and execution of the challenge on sixteen different platforms that will earn this paper ACM’s “Results Replicated” badge in the ACM digital library. Sharing is at the core of the Reproducibility Challenge – so, the work of the SCC teams will be collected and published. We have already published three special issues in Parallel Computing from three previous years (SC16, SC17, SC18).
+
+ 
+
+Putting Together the Benchmark
+Many volunteers participate in the selection of the paper, the creation of the benchmark for the SCC teams, the assessment of the students’ work, and the publication of the special journal issue.
+
+During the first round of reviews to determine feasibility for the competition, the reviewers looked at whether the finalist papers had an application that could be run by the student teams on the broad range of hardware types and cluster configurations that are typically fielded by SCC teams. This initial review eliminated nearly 80% of the potential papers because, for example, they used proprietary compilers, ran only on specific hardware, or reproducing the results required a larger scale than the SCC clusters could provide.
+
+A second round of reviews, including at least three for each paper, looked for which application would be best suited for the SCC teams. The committee then ranked the submissions based on criteria such as the application’s real-world impact as understood by undergraduates, and the student experience while working with the benchmark. Discussions with the authors of the finalist papers focused on the feasibility of adapting their applications to the Student Cluster Competition in cases where the information was not readily available in the submitted paper. Following these interviews, the committee met to determine which application to invite.
+
+The selection of the paper is only one step in a long process that ends with the preparation of the Reproducibility Challenge benchmark – one of four benchmarks that the students must meet during the competition. The Reproducibility benchmark will be revealed at SC20. Following the conference, we will publish the students’ reports from the SC20 SCC Reproducibility Challenge, to demonstrate the effectiveness of the SCC teams and their success in replicating the code on the sixteen platforms.
+
+ 
+
+Mark Your Calendar
+The Student Cluster Competition will be held Monday–Wednesday, November 16–18, 2020. Visit the SCC booth in the Exhibit Hall at SC20 and chat with students about the Reproducibility Challenge. We invite you to celebrate the student participants and the authors of the selected paper at the Awards Ceremony on Thursday of the conference. And don’t miss next year’s SCC reports!
+
+Join us in Atlanta to meet these amazing students and watch them race to reproduce this benchmark and three other HPC applications on the exhibit floor.
+
+Three Questions with SC20 Transparency and Reproducibility Chair Beth Plale.
+
+SC is an unquestioned pioneer in improving scientific rigor of the works published in its conference proceedings. Over the past 5 years, the SC reproducibility initiative has strived to enhance reproducibility, offering appendices through which the community is given additional detail (beyond what the typical paper structure allows) to build upon a research result. This post is intended for authors and the general community, to call your attention to a few new developments. Reproducibility is a work in progress, and responsiveness to community needs is an ongoing priority.
+Q: The name of the initiative is now the “Transparency and Reproducibility Initiative”, how does that affect authors?
+ 
+
+A: The new naming is recognition of the growing prevalence of AI-based innovation in HPC, and the awareness that the established norms in HPC paper structuring often impede key decisions. For instance, research results should include evidence for why one algorithm worked and others do not, or why one software architecture is chosen over another. Also, ad hoc methods (e.g., to tune an AIs’ “learning rates”—how much an algorithm corrects itself after each mistake) are sometimes used without justification for why one ad hoc method is better than others.
+
+
+The call for participation for SC20 has been edited to address the need for greater transparency in submitted manuscripts. Papers making fundamental, non-performance related research contributions to algorithms, or their application within a software architecture, should address in the body of their manuscript the questions of transparency raised above. If additional resources need to be included, they should be linked to in the AD appendix.
+
+ 
+
+Q: How are the Appendices (AD/AE) reviewed?
+ 
+
+A: Since its inception the initiative has striven for appendices that improve scientific rigor. Thus, and because appendix information will frequently reveal the identity of the author, the SC AD/AE Appendices Committee (SC AC) is independent of the SC Papers Committee (SC PC). The SC AC works under a double-open arrangement where authors and committee members are known to each other, and the SC AC team is poised to help authors improve their appendices.
+
+SC20 further clarifies that the results of SC AC review of appendices is in the form of recommendations to the SC PC chairs, and that these recommendations are to be provided to the SC PC at each of the multiple points of SC PC review of submitted manuscripts.
+
+ 
+
+Q: Any other important information to share?
+ 
+
+A: We’re excited about a new initiative that we are working on this year to take the temperature of the community. SC has nurtured the reproducibility activity over the last 5 years, and the community has had this long to not only respond as authors, but to benefit from the potential the initiative provides for new discovery. The transparency and reproducibility team is building a community survey that should be coming out soon. We are also looking forward to supporting the student reproducibility challenge as in years past. Consult with the SC20 Transparency and Reproducibility Leadership Team, members listed below, and stay tuned!
+
+Transparency and Reproducibility Initiative
+
+SC has been a leader in tangible progress towards scientific rigor, through its pioneering practice of enhanced reproducibility of accepted papers. The SC20 initiative builds on this success by continuing the practice of using appendices to enhance scientific rigor. SC20 sees the initiative expanded to encompass transparency and reproducibility for the broader objective of enhanced scientific rigor, and streamlined for reduced researcher burden.
+
+Transparency of research results is achieved by papers that, for instance, provide evidence for why one algorithm worked and others do not, or provide evidence of a rigorous criteria having been followed to choose one software architecture over another. In the specific case of AI transparency, ad hoc methods (e.g., to tune an AIs’ “learning rates”—how much an algorithm corrects itself after each mistake) are sometimes used without justification for why one ad hoc method is better than others. Author attention to enhancing the transparency of their science methodologies is a complement to reproducibility details in strengthening the overall rigor of a scientific publication.
+
+The SC20 Transparency and Reproducibility Initiative impacts technical papers and their submission and peer review in the following ways:
+
+The Artifact Description (AD) Appendix will be auto-generated from author responses to a standard form embedded in the online submission system. It will have greater emphasis on linking to the broader products resulting from research. The AD is required but an indication that no artifacts were created or used is acceptable. Accepted papers with available artifacts will be honored with the ACM badge.
+The Artifact Evaluation (AE) remains optional.
+Transparency of research results. Papers making fundamental, non-performance related research contributions to algorithms, or their application within a software architecture should address in the body of their manuscript the questions of transparency raised. If additional resources need to be included, they can be linked to in the AD appendix.
+The SC20 Transparency and Reproducibility Initiative accomplishes its work through the following three tracks/committees:
+
+Artifact Description/Artifact Evaluation Appendices Track
+Reproducibility Challenge Track
+Initiative Evaluation: Taking the Temperature Track
+SC Transparency and Reproducibility Subcommittees
+AD/AE Appendices Track
+This subcommittee has the following tasks within its charge:
+
+Manage and/or develop transparency and reproducibility FAQ and other resources as aid to authors during submission. Could include one-on-one assistance with prospective author.
+Develop and publicly release a rubric for reviewing appendices. This release will occur prior to the paper submission deadline.
+Review the appendices of submitted papers according to the rubric. Provide a justified assessment to the PC who will incorporate this recommendation into their final determination.
+Reproducibility Challenge
+This subcommittee has the following tasks within its charge:
+
+Select a paper accepted to the previous conference to be used as source of the Reproducibility Challenge in the Student Cluster Competition (SCC) of the next conference;
+Work with the authors of the selected paper to build the challenge benchmark for the SCC teams;
+Continue working until the time of the conference in crafting the rules and requirements for the challenge, and ensure compatibility with the various hardware used by the SCC teams;
+Convene a subgroup to collect publish-quality reports from each student team who participated in the reproducibility challenge of SCC. The reports in this collection will have a citable DOI and be made available through an archive venue.
+Transparency and Reproducibility Initiative Evaluation
+This subcommittee, new to SC20, is charged with soliciting feedback from the community about the transparency and reproducibility initiative. It has the following tasks within its charge:
+
+Develop a survey instrument
+Administer the survey
+Compile results into a report that is made publicly available
+AD/AE Appendix Form: Its Role in a Paper and Its Review
+All manuscripts submitted to the SC20 Technical Papers program must contain an AD Appendix. The AD Appendix describes the significant research products and other evidence needed for greater transparency and rigor of the scientific conclusions of the manuscript. If a manuscript’s scientific findings have no significant supporting research products or require no additional evidence in support of its scientific conclusions, the AD appendix can easily be generated to reflect this fact. That is, the AD form is mandatory but the author makes the determination whether additional evidence is needed for their particular scientific contribution. The AE appendix is optional. The AD/AE form is standard, and embedded in the conference submission system.
+
+View a sample AD/AE Appendix Form
+
+Role of AD/AE Appendix during review: Submissions to SC are double-blind reviewed. SC Papers Committee (PC) reviewers will have only the information in the AD/AE form available to them that does not compromise the double-blind protection.
+
+The AD/AE Appendices Committee works independently of the SC PC because supporting materials will, by their nature, frequently reveal the identity of the submitter. That is, the AD/AE Appendices Committee works under a double-open arrangement (authors and committee members are known to each other). The AD/AE Appendices Committee will develop and publicly release a rubric for reviewing appendices. Appendices of submitted papers are reviewed according to the rubric. The AD/AE Appendices Committee results are recommendations to the PC chairs. That is, the committee will provide a justified assessment to the PC chairs who will incorporate this recommendation into their final acceptance determination.
+
+Additional notes to authors:
+
+The on-line submission form accommodates both Artifact Description (required) and Artifact Evaluation (optional).
+The appendices are intended for supplemental material only. Specifically, the research or experimental methodology is critical to understanding the scientific contribution so must be included in the body of the paper.
+Please contact us with your questions.
+History of the SC Reproducibility Initiative
+2019
+AD Appendices were mandatory for all submissions. AE Appendices were still optional, and both were submitted via a standard form in the conference submission system. Three new Technical Program tracks, with their respective committees and chairs, were introduced in support of the SC Reproducibility Initiative.
+
+2018
+SC extended the option of submitting AD Appendices to Workshops and Posters. The CRA Appendix was renamed Artifact Evaluation (AE) Appendix, and limited to four pages. AD Appendices were limited to 2 pages and remained optional (but required for consideration as Best Paper/Best Student Paper, and also Best Poster/Best Student Poster).
+
+2017
+SC made the AD Appendix a requirement to be considered for the Best Paper or Best Student Paper awards. SC17 also introduced the Computational Results Analysis (CRA) Appendix. 40% of submitted and 50% of accepted papers included an AD appendix; nine submitted papers (six accepted) included a CRA Appendix.
+
+2016
+Authors submitting to the SC16 conference could optionally submit an AD Appendix: nine authors submitted one, three were finalists, and one was selected to become the source for the SC17 Student Cluster Competition Reproducibility Challenge.
+
+2015
+The SC steering committee approved the reproducibility initiative. Authors of SC15 papers were invited to submit an AD Appendix after the conference: one paper did so, became the source for the SC16 Student Cluster Competition Reproducibility Challenge and the first SC paper to display an ACM badge.
+
+Toward Interactive, Reproducible Analytics at Scale on HPC Systems
+
+The growth in scientific data volumes has resulted in a need to scale up processing and analysis pipelines using high-performance computing (HPC) systems. These workflows need interactive, reproducible analytics at scale. The Jupyter platform provides core capabilities for interactivity but was not designed for HPC systems. In this paper, we outline our efforts that bring together core technologies based on the Jupyter platform to create interactive, reproducible analytics at scale on HPC systems. Our work is grounded in a real world science use case: applying geophysical simulations and inversions for imaging the subsurface. We describe a user study that we conducted to identify gaps and requirements to drive our work. Our core platform addresses three key areas of the scientific analysis workflow: reproducibility, scalability and interactivity. We describe our implemention of a system, based on Binder software, which allows us to capture a set of Jupyter notebooks along with the software environment needed to run these as a container. These reproducible containers, based on Docker technology, can be launched on NERSC HPC systems as live Jupyter analysis environments. We discuss our approach to capturing provenance in these environments with the Science Capsule framework. We show how these analyses can then be scaled up on HPC compute resources using the Dask framework, while interactively capturing and rendering results in the notebook. Finally we describe how we can interactively visualize real-time streams of HDF5 data from our underlying science application.
+
+Reproducible Scientific Computing: Progress and Challenges
+
+The field of high-performance computing has long been plagued by reproducibility problems. In the early 1990s, lax standards for reporting performance led to considerable confusion and some loss of credibility for the field. Even today, the HPC field significantly lags other fields of scientific research in establishing standards for reproducible research, even for such basic practices as thoroughly documenting computer runs with algorithm statements, source code, system environment and other key details. Recently the issue of numerical reproducibility has risen to the fore, spurred both by the rapidly increasing scope and sophistication of large applications, which greatly magnify numerical sensitivities and precision requirements, as well as increased interest in machine learning and artificial intelligence, which has driven usage of half-precision and other forms of reduced-precision computing. This talk will briefly summarize current work in the field and outline challenges that lie ahead.
+

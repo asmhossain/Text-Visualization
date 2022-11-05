@@ -1,0 +1,160 @@
+The SC Best Reproducibility Advancement Award aims to recognize outstanding efforts in improving transparency and reproducibility of methods for high performance computing, storage, networking and analysis. This award will recognize the paper or a research object of a paper that most significantly advances the state of art in transparency and reproducibility. 
+
+In this context, a research object refers to a collection of computational artifacts that extend beyond the submitted paper, such as software, datasets, environment configuration, mechanized proofs, benchmarks, or test suites with scripts.
+
+Goals
+This award aims to encourage transparency and reproducibility and to reward outstanding efforts that broadly fall under the following scope:
+
+Improvements in transparency and reproducibility of research in HPC, e.g., via tools or methods
+Efforts to build transparent and reproducible research objects
+Experimental design methodologies for verifying and future-proofing scientific claims and conclusions
+Generation and publication of open datasets/software of relevance to the SC community
+General advancements in transparency and reproducibility
+Criteria
+The award will be given based on the advancements in transparency and reproducibility and/or extraordinary examples of reproducible research in a paper or research object. Typical examples include:
+
+Paper 
+Developing novel tools and methodologies to assist transparency and reproducibility
+Demonstrating and studying transparency and reproducibility at SC
+Enabling transparency and reproducibility in a subfield at SC with barriers for transparency and reproducibility
+Research Objects of a Paper
+Showcasing best practices
+Open sourcing research objects
+Packaging research objects in a novel/particularly helpful way
+Building research objects tailored to education 
+Automating reproduction 
+Adapting research objects for alternative experiment environments
+Including original measurements and information about the experiments
+Nomination Process
+All accepted SC papers with AD/AE are eligible for this award and can be nominated by the SC Technical Paper Committee or SC Artifact Description/Evaluation Committee as part of the usual review process. Each submission will be given the opportunity to highlight their advancement in transparency and reproducibility as part of their submission form. This information would then be considered during the selection process.
+
+Reproducibility Initiative
+SC has been a leader in tangible progress towards scientific rigor, through its pioneering practice of enhanced reproducibility of accepted papers. The SC22 initiative builds on this success by continuing the practice of using appendices to enhance scientific rigor and transparency.
+
+The Reproducibility Initiative impacts technical papers and their submission and peer review in the following ways:
+
+The Artifact Description (AD) Appendix will be auto-generated from author responses to a standard form embedded in the online submission system. It will have greater emphasis on linking to the broader products resulting from research. The AD is required but an indication that no artifacts were created or used is acceptable.
+For accepted papers, SC22 will evaluate and reward the availability and functionality of automated Artifact Evaluation (AE) so that reviewers can easily reproduce a paper’s key results and claims with provided artifacts. While authors are strongly encouraged to make all artifacts publicly available, AE is open to artifacts that are not. Accepted papers with available artifacts will be honored with the appropriate ACM badges.
+The Reproducibility Initiative accomplishes its work through the following three subcommittees:
+
+Artifact Description/Artifact Evaluation Appendices Subcommittee
+Reproducibility Challenge Subcommittee
+Journal Special Issue Subcommittee
+SC Reproducibility Subcommittees
+AD/AE Appendices
+This subcommittee has the following tasks within its charge:
+
+Manage and/or develop reproducibility FAQ and other resources as aid to authors during submission. Could include one-on-one assistance with prospective authors.
+Develop and publicly release a rubric for reviewing appendices. This release will occur prior to the paper submission deadline.
+Review the appendices of submitted papers according to the rubric. Provide a justified assessment to the PC who will incorporate this recommendation into their final determination.
+Nominate Best Reproducibility Advancement Award finalists and select the winner. See the Best Reproducibility Advancement Award page for details.
+Reproducibility Challenge
+This subcommittee has the following tasks within its charge:
+
+Select a paper accepted to the previous conference to be used as source of the Reproducibility Challenge in the Student Cluster Competition (SCC) of the next conference;
+Work with the authors of the selected paper to build the challenge benchmark for the SCC teams;
+Continue working until the time of the conference in crafting the rules and requirements for the challenge, and ensure compatibility with the diverse hardware used by the SCC teams;
+Convene a subgroup to collect publish-quality reports from each student team who participated in the reproducibility challenge of SCC. The reports in this collection will have a citable DOI and be made available through an archive venue.
+AD/AE Appendix Form: Its Role in a Paper and Its Review
+All manuscripts submitted to the SC Technical Papers program must contain an AD Appendix. The AD Appendix describes the significant research products and other evidence needed for greater scientific rigor and transparency of the scientific conclusions of the manuscript. If a manuscript’s scientific findings have no significant supporting research products or require no additional evidence in support of its scientific conclusions, the AD Appendix can easily be generated to reflect this fact. That is, the AD form is mandatory but the author makes the determination whether additional evidence is needed for their particular scientific contribution.
+
+The AE Appendix is optional but authors are strongly encouraged to provide AE resources and workflows that reviewers can easily evaluate for availability, functionality, and their support for claimed key results. Even though the AD/AE review process strongly encourages publicly available artifacts, it is open to artifacts that are not.
+
+Role of AD/AE Appendix during review: Submissions to SC are double-blind reviewed. SC Papers Committee (PC) reviewers will have only the information in the AD/AE form available to them that does not compromise the double-blind protection.
+
+The AD/AE review criteria are posted as part of AD/AE Appendix Process & Badges. The AE badges are the rubric as to how far an artifact has gone along in the reproducibility spectrum (see description of the badges).
+
+Additional notes to authors:
+
+The online submission form accommodates both Artifact Description (required) and Artifact Evaluation (optional).
+The appendices are intended for supplemental material only. Specifically, the research or experimental methodology is critical to understanding the scientific contribution so must be included in the body of the paper.
+Please contact us with your questions.
+AD/AE Appendix Process & Badges
+The goal of the SC Reproducibility Committee is to encourage and promote reproducible research within the SC community. To that end, we aim to assist SC authors in providing us with the necessary documentation that describes your artifact and help us evaluate it so we can assign a badge to the artifact.
+
+For full details on the AD/AE process including AD/AE criteria, submission timeline, a description of artifact badges, and tips on organizing your research object see:
+
+AD/AE Appendix Process & Badges
+
+Infrastructure for Artifact Evaluation
+Authors of accepted papers who applied for artifact badges require infrastructure to share their artifacts with the AD/AE Committee for review. To facilitate artifact sharing, the SC22 Reproducibility Initiative is collaborating with Chameleon Cloud, CloudLab, Jetstream via XSEDE, SDSC, and TACC to provide such an infrastructure. Authors of submitted papers will be able to prepare their artifacts so that if their submissions get accepted, the AD/AE Committee can perform single-blind reviews of their artifact badge applications.
+
+Reproducibility Infrastructure Webinar Series
+The SC22 Reproducibility Initiative and the infrastructure collaborators are organizing a webinar for authors who are interested in using this infrastructure. The webinar will be recorded so authors in multiple time zones can view it and will be posted here.
+
+
+History of the SC Reproducibility Initiative
+2021
+Paper authors applied for up to three reproducibility badges (available, functional, reproducible). SC collaborated with NSF Cloud infrastructure providers for preparing and examining artifacts. Accepted papers were listed with their badges in the program Schedule. The SC Steering Committee approved the SC Best Reproducibility Advancement Award and members of the technical program and the reproducibility initiative committees selected an Award winner.
+
+2020
+SC expanded the Initiative to transparency and reproducibility to reflect scientific rigor through disclosure particularly in research involving AI. The AD Appendix was streamlined for reduced researcher burden and to align with open science principles. An additional track undertook a formal survey of community sentiment about SC reproducibility with the objective of publishable results. The majority of survey participants who went through the AD/AE Appendices process expressed that they now think differently about theirs and others’ research after having gone through the process.
+
+2019
+AD Appendices were mandatory for all submissions. AE Appendices were still optional, and both were submitted via a standard form in the conference submission system. Three new Technical Program tracks, with their respective committees and chairs, were introduced in support of the SC Reproducibility Initiative.
+
+2018
+SC extended the option of submitting AD Appendices to Workshops and Posters. The CRA Appendix was renamed Artifact Evaluation (AE) Appendix, and limited to four pages. AD Appendices were limited to 2 pages and remained optional (but required for consideration as Best Paper/Best Student Paper, and also Best Poster/Best Student Poster).
+
+2017
+SC made the AD Appendix a requirement to be considered for the Best Paper or Best Student Paper awards. SC17 also introduced the Computational Results Analysis (CRA) Appendix. 40% of submitted and 50% of accepted papers included an AD appendix; nine submitted papers (six accepted) included a CRA Appendix.
+
+2016
+Authors submitting to the SC16 conference could optionally submit an AD Appendix: nine authors submitted one, three were finalists, and one was selected to become the source for the SC17 Student Cluster Competition Reproducibility Challenge.
+
+2015
+The SC steering committee approved the reproducibility initiative. Authors of SC15 papers were invited to submit an AD Appendix after the conference: one paper did so, became the source for the SC16 Student Cluster Competition Reproducibility Challenge and the first SC paper to display an ACM badge.
+
+
+Reproducibility Initiative Announces Webinar Series to Assist Paper Authors
+
+On March 14, 2022, the SC22 Reproducibility Initiative Committee will kick-off a webinar series to provide potential authors with key information on using several technologies and platforms to help them prepare the Artifact Description and Artifact Evaluation (AD/AE) appendix for paper submissions.
+
+The series will include webinars on the Extreme-scale Scientific Software Stack (E4S), Chameleon Cloud, Jetstream among others. To access Zoom information for each event, please register at the links provided below.
+
+The first webinar will take place on March 14, 2022.
+
+1. Extreme-scale Scientific Software Stack (E4S)
+Title: Using Containers for Reproducibility of Scientific Results for AD/AE Submission
+Speaker: Sameer Shende, University of Oregon
+Abstract: Containers have ushered in a new era of reproducibility of scientific results. This talk will focus on using and building custom containers that support CPU and GPU platforms on x86_64, ppc64le, and aarch64 with support for NVIDIA, Intel, and AMD GPUs. It will demonstrate techniques for deploying these base and full-featured images from E4S to build tools that can be used in SC22 papers for AD/AE submission.
+Slides: Download PPT Slides (25 MB)
+Video: Watch on YouTube
+2. Chameleon Cloud
+Title: Using Chameleon Cloud for Reproducibility for AD/AE Submission
+Speakers: Isabel Brunkan and Michael Sherman, Chameleon Cloud
+Abstract:  Chameleon, an NSF-funded computer science and systems research testbed, provides bare metal reconfigurability options for CPUs, GPUs, and FPGAs, with consumer and enterprise level SSDs, NVMe, NVDIMM and RDMA storage options, InfiniBand networking, ARM ThunderX2 processors, an edge testbed with Raspberry Pis and Jetson Nanos and even more unique configurations available. This talk will cover the basics of interacting with Chameleon and reproducibility options including using the Jupyter Notebook integration to package experiments, a testbed-integrated repository to help you share and discover experiments, and Daypass, which allows you to share your experiment via a link or QR code.
+Slides: Coming Soon
+Video: Watch on YouTube
+3. Jetstream2
+Title: Jetstream2 – Accelerating Cloud Computing via Jetstream
+Speaker: Jeremy Fischer, Indiana University
+Abstract: Jetstream2 is a category I production cloud resource that is part of the National Science Foundation’s Innovative HPC Program. The project’s aim is to accelerate science and engineering by providing “on-demand” programmable infrastructure built around a core system at Indiana University and four regional sites. Jetstream2 is an evolution of the Jetstream platform, which functions primarily as an Infrastructure-as-a-Service cloud. The lessons learned in cloud architecture, distributed storage, and container orchestration have inspired changes in both hardware and software for Jetstream2. These lessons have wide implications as institutions converge HPC and cloud technology while building on prior work when deploying their own cloud environments. In this talk, we will cover the transition to Jetstream2, the available resources, accessing Jetstream2 resources, and how to use them.
+Slides: Download PDF Slides (3 MB)
+Video: Watch on YouTube
+Information on this and future webinars can be found on the Reproducibility Initiative page. Please do not hesitate to contact the Reproducibility Initiative Committee and the AD/AE Appendices Co-Chairs if you have questions.
+
+Call for Participation, Papers, Reproducibility
+
+Reproducibility Initiative
+We believe that reproducible science is essential, and that SC is a leader in this effort. Moving in this direction, we encourage authors to submit reproducibility information in the form of an Artifact Description (AD) Appendix along with their other submission materials in the SC submissions website.
+
+The HPC landscape is larger, more complex, and more interconnected than ever before. With both cloud HPC and quantum computing entering as disruptors, users face many challenges managing software and data. We discuss some solutions with Covalent, a new open-source Pythonic toolkit for reproducible computational research. We demonstrate using practical examples from classical and quantum machine learning how users can rapidly iterate over hardware and software in order to efficiently identify novel research results. We also go into detail to discuss some of the challenges around quantum-classical interconnects and how hybrid quantum algorithms map to hybrid infrastructure.
+
+Within just the past few years, the use of containers has revolutionized the way in which industries and enterprises have developed and deployed computational software and distributed systems. The containerization model has gained traction within the HPC community as well with the promise of improved reliability, reproducibility, portability, and levels of customization that were not previously possible on supercomputers. This adoption has been enabled by a number of HPC Container runtimes that have emerged including Singularity, Shifter, Enroot, Charliecloud, and others.
+
+Software, its design, development, and engineering has become one of the corner stones of computational science research. There is a lot of demand for scientists and engineers who can write well-designed, sustainable, and reproducible software. This is at odds with the traditional way of writing code just to explore and showcase ideas, mainly for scientific papers.
+
+The advancement of scientific knowledge is driven by the ability to reproduce research findings. While there is an agreement about the importance of reproducibility and we continue to see a growing number of related initiatives, most researchers, however, still do not incorporate reproducibility practices in their work. It is also not uncommon to lose years of research progress when a researcher leaves a team or graduates. Building on PEARC22 BoF discussions, this BoF will aim at democratizing reproducibility and discussing opportunities and challenges for developing active community-driven services and shared training resources for the reproducibility and trustworthiness of scientific research.
+
+Security models for Linux distro package security and interoperability have traditionally emphasized the use of more recent (more secure) versions at the occasional expense of execution reproducibility. A complementary approach (e.g., Lmod) allows access to multiple sysadmin-approved package versions. Another approach (e.g., Spack) enables a pure user space approach for package selection without system administrator oversight. While maximizing reproducibility, there is no user feedback regarding potential security vulnerabilities. We introduce a general security model for package management and our implementation of SpackNVD, a security auditing tool for Spack. Users may query reported vulnerabilities for specific package versions and can prevent installation where the severity score exceeds a threshold. We emphasize this is a tool, not a solution: Spack users are not expected to be security professionals. However, this information may influence Spack concretizer decisions, and enable users to ask support staff about whether specific package versions are appropriate for use.
+
+RECUP: A (Meta)data Framework for Reproducing Hybrid Workflows with FAIR
+
+This abstract presents a conceptual framework and methods to extract and share (meta)data (data and metadata) necessary for reproducibility in the context of complex hybrid workflows (workflows that include numerical simulations and data-intensive applications) executed at extreme scale. We target Digital Objects required to reproduce results and performance: we capture, fuse, and analyze (meta)data to select parameters influencing reproducibility, and make them FAIR Digital Objects for re-use.
+
+Portability and reproducibility are the primary goals of scientific communities that intend to use container technology that is familiar with High Performance Computing (HPC) applications and environments on-premises and in the cloud to support these concerns. Singularity and Sarus evolved to meet the needs of computational workload users and administrators in HPC environments, as well as container portability and reproducibility for scientific computing. To scale complex workloads on multi-node distributed memory architectures, HPC applications often use the Message Passing Interface (MPI), while the use of a Graphical User Interface (GUI) is an integral part of pre-processing, post-processing, data analysis, and result interpretation. This work presents approaches to building and executing containerized MPI and GUI applications on HPC in the cloud. We provide comprehensive performance evaluation of MPI and GUI applications running in an isolated container environment with Workload Manager, with reference to native on HPC in the cloud.
+
+Repeatability and reproducibility are important for science, but HPC application experiments have complex and changing software stacks and runtime environments which make this difficult to attain. This presentation describes a system for combining containers and system hardware environment capture to fully capture an application experiment’s provenance; the clear interfaces to hardware exposed by containers are a key element of this approach. The evaluation of this system demonstrates that this combination enables effective analysis of application dependencies, increasing the reproducibility of experimental results in HPC systems. It also demonstrates that this technique can provide basis for Scientific Development Operations that result in verifiable application experiments.
+
+
